@@ -7,6 +7,7 @@ import Services from './components/Services/Services';
 import Tutorials from './components/Tutorials/Tutorials'
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
+import Tutorial from './components/Tutorial/Tutorial';
 
 function App() {
   return (
@@ -23,8 +24,11 @@ function App() {
           <Route path='/services'>
             <Services></Services>
           </Route>
-          <Route path='/tutorials'>
+          <Route exact path='/tutorials'>
             <Tutorials></Tutorials>
+          </Route>
+          <Route exact path='/tutorial/:videoId'>
+            <Tutorial></Tutorial>
           </Route>
           <Route path='/about'>
             <About></About>
