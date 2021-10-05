@@ -1,4 +1,6 @@
 import React from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
 import { NavLink, useHistory } from 'react-router-dom';
 import logo from '../../images/craftophile-logo.jfif'
 
@@ -22,6 +24,8 @@ const Header = () => {
     const handleClickOnLogo = () => {
         history.push('/home')
     }
+
+
 
     return (
         <div className="grid grid-cols-2 gap-4 bg-yellow-500 h-32 p-5">

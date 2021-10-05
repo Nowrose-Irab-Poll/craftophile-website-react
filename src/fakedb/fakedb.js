@@ -6,14 +6,6 @@ const services = [
 ]
 
 const tutorials = [
-    {id: '1', videoId: 'FrY-T_Mxo0I', title: 'Diy cake topper | how to make cake topper using paper | Akatsuki cloud themed cake topper', description: `
-
-    Diy cake topper  | how to make cake topper using paper | Akatsuki cloud themed cake topper
-    
-    Diy cake topper  | how to make cake topper using paper | Akatsuki cloud themed cake topper`},
-    {id: '2', videoId: '8yA3fT8jWgY', title: 'How to make Naruto themed bookmark | Make easy Naruto bookmark', description: `How to make naruto themed bookmark 
-
-    Hello guys, hope you are doing well. Here is naruto theme bookmark tutorial. 😇
-    
-    Comment below to let me know do you like it or not and you can also suggest me more ideas`},
+    {id: '1', videoId: 'FrY-T_Mxo0I', title: 'Diy cake topper | how to make cake topper using paper | Akatsuki cloud themed cake topper'},
+    {id: '2', videoId: '8yA3fT8jWgY', title: 'How to make Naruto themed bookmark | Make easy Naruto bookmark'},
 ]

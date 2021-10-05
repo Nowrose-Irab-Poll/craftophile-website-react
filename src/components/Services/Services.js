@@ -17,7 +17,7 @@ const Services = () => {
         <div className="mx-48 flex flex-col items-center">
             <h1 className="font-semibold text-4xl my-8">Our Offered Services</h1>
             {
-                services.map( service => <Service service={service}></Service>)
+                services.map( service => <Service key={service.icon} service={service}></Service>)
             }
         </div>
     );
